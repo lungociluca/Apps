@@ -1,0 +1,27 @@
+/
+To add a new appointment the command is:        add startHour startMinute timeToWash needsParking email
+To remove an appointment the command is:        delete email
+To print the appointment list the command is:   print stationNr
+To show when an appointment can be made:       ? timeToWash
+To show nr. of parking spots free type:		parking
+/
+add 9 30 20 false luca@gmail.com
+add 10 20 40 true iulia@yahoo.com
+add 11 10 20 true toma@gmail.com
+add 12 35 15 true raul_12@gmail.com
+add 9 0 120 true Mircea@gmail.com
+add 13 10 20 true denisss@hotmail.com
+add 12 30 150 false Sergiu@hotmail.com
+add 15 10 30 false raduhodreamehe@yahoo.com
+delete Mircea@gmail.com
+add 10 0 10 false acuma@gmail.com
+add 14 45 12 false corneliu@yahoo.com
+add 10 30 10 false arius@yahoo.com
+delete  arius@yahoo.com
+add 10 30 10 false nicu@gmail.com
+add 10 0 17 false andreiAngel@gmail.com
+add 10 30 14 false em@gmail.com
+add 14 50 12 true Stefan_Popescu@gmail.com
+add 9 0 10 false user_1012@yahoo.com
+add 14 0 10 false incaunu@hotmail.com
+add 10 15 10 false null

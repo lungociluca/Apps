@@ -1,0 +1,75 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.CheckBox?>
+<BorderPane fx:id="mainBorderPane" fx:controller="sample.Controller"
+            xmlns:fx="http://javafx.com/fxml" >
+    <top>
+        <GridPane alignment="CENTER">
+            <Label text="Welcome to our car wash, we work between 9:00 and 16:00  " GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        </GridPane>
+    </top>
+
+    <left>
+        <GridPane>
+            <Label fx:id="SizeLabel" GridPane.rowIndex="0" GridPane.columnIndex="0" text="Please select a size"/>
+            <fx:define>
+                <ToggleGroup fx:id="size"/>
+            </fx:define>
+            <RadioButton fx:id="size1" text="small (sedan, hatchback,...)" toggleGroup="$size" GridPane.rowIndex="1" GridPane.columnIndex="0" onAction="#sizeSelected"/>
+            <RadioButton fx:id="size2" text="medium (SUV, minivan,...)" toggleGroup="$size" GridPane.rowIndex="2" GridPane.columnIndex="0" onAction="#sizeSelected"/>
+            <RadioButton fx:id="size3" text="big (minibus)" toggleGroup="$size" GridPane.rowIndex="3" GridPane.columnIndex="0" onAction="#sizeSelected"/>
+
+        </GridPane>
+    </left>
+
+    <right>
+        <GridPane>
+            <Label fx:id="ServiceLabel"  GridPane.rowIndex="0" GridPane.columnIndex="0" text="Please select a service"/>
+            <fx:define>
+                <ToggleGroup fx:id="service"/>
+            </fx:define>
+            <RadioButton fx:id="service1" text="exterior" toggleGroup="$service" GridPane.rowIndex="1" GridPane.columnIndex="0" onAction="#serviceSelected"/>
+            <RadioButton fx:id="service2" text="exterior + interior" toggleGroup="$service" GridPane.rowIndex="2" GridPane.columnIndex="0" onAction="#serviceSelected"/>
+            <Label text=" " GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+            <Label text="Do you need parking?" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+            <fx:define>
+                <ToggleGroup fx:id="parking"/>
+            </fx:define>
+            <RadioButton fx:id="parking1" text="yes" toggleGroup="$parking" GridPane.rowIndex="5" GridPane.columnIndex="0" />
+            <RadioButton fx:id="parking2" text="no" toggleGroup="$parking" GridPane.rowIndex="6" GridPane.columnIndex="0" selected="true"/>
+        </GridPane>
+    </right>
+
+    <center>
+        <GridPane BorderPane.alignment="CENTER" alignment="CENTER">
+            <Button fx:id="makeAppointment" text="Make appointment" onAction="#setMakeAppointment" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <Button fx:id="cancelAppointment" text="Cancel appointment" onAction="#setCancelAppointment" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+            <TextField fx:id = "hour" GridPane.rowIndex="3" GridPane.columnIndex="0" />
+            <Label text="Insert time of appointment " GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <Label text="as hour:minutes" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+            <Button text="Only for admin use" GridPane.rowIndex="4" GridPane.columnIndex="0" GridPane.columnSpan="2" onAction="#show"/>
+        </GridPane>
+    </center>
+
+    <bottom>
+        <GridPane>
+            <Label fx:id="label1" text="Please select the size of your car and the service you require before making an appointment" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <Label fx:id="label2" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        </GridPane>
+    </bottom>
+
+</BorderPane>
