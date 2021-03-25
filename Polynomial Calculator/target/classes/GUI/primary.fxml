@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.TextField?>
+<GridPane alignment="CENTER" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.PrimaryController">
+
+
+   <Label text="Input example: -5X^6 + X^8 +113X -3,  no need to put the 0 and 1 degrees" GridPane.columnIndex="0" GridPane.rowIndex ="0" GridPane.columnSpan="3" />
+   <Label text="" GridPane.columnIndex="0" GridPane.rowIndex ="1" GridPane.columnSpan="3" />
+   <Label text="First polynomial:" GridPane.columnIndex="0" GridPane.rowIndex ="2" GridPane.columnSpan="3" />
+   <TextField fx:id="field1" GridPane.columnIndex="0" GridPane.rowIndex="3" GridPane.columnSpan="3" />
+   <Label text="Second polynomial" GridPane.columnIndex="0" GridPane.rowIndex ="4" GridPane.columnSpan="3" />
+   <TextField fx:id="field2" GridPane.columnIndex="0" GridPane.rowIndex="5" GridPane.columnSpan="3" />
+   <Label text="Choose the operation you want to perform:" GridPane.columnIndex="0" GridPane.rowIndex ="6" GridPane.columnSpan="3" />
+   <Button text="     +     " GridPane.columnIndex="0" GridPane.rowIndex ="7" onAction="#addition" />
+   <Button text="     -     " GridPane.columnIndex="2" GridPane.rowIndex ="7" onAction="#substraction" />
+   <Button text="     *     " GridPane.columnIndex="0" GridPane.rowIndex ="8" onAction="#multiplication" />
+   <Button text="     /     " GridPane.columnIndex="2" GridPane.rowIndex ="8" onAction="#division" />
+   <Button text="    ()'    " GridPane.columnIndex="0" GridPane.rowIndex ="9" onAction="#differation" />
+   <Button text="    ∫()    " GridPane.columnIndex="2" GridPane.rowIndex ="9" onAction="#integration" />
+   <Label text="" fx:id="outputLabel" GridPane.columnIndex="0" GridPane.rowIndex ="10" GridPane.columnSpan="3" />
+   <Label text="" fx:id="outputLabel2" GridPane.columnIndex="0" GridPane.rowIndex ="11" GridPane.columnSpan="3" />
+</GridPane>
