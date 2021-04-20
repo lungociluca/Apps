@@ -1,0 +1,360 @@
+Time 0
+Waiting clients: (4, 7, 2)(3, 9, 3)(2, 9, 3)(1, 22, 3)
+Queue 1: ;
+Queue 2: ;
+Peak hour: 0, average waiting time: 0, average service time: 2
+
+Time 1
+Waiting clients: (4, 7, 2)(3, 9, 3)(2, 9, 3)(1, 22, 3)
+Queue 1: ;
+Queue 2: ;
+Peak hour: 0, average waiting time: 0, average service time: 2
+
+Time 2
+Waiting clients: (4, 7, 2)(3, 9, 3)(2, 9, 3)(1, 22, 3)
+Queue 1: ;
+Queue 2: ;
+Peak hour: 0, average waiting time: 0, average service time: 2
+
+Time 3
+Waiting clients: (4, 7, 2)(3, 9, 3)(2, 9, 3)(1, 22, 3)
+Queue 1: ;
+Queue 2: ;
+Peak hour: 0, average waiting time: 0, average service time: 2
+
+Time 4
+Waiting clients: (4, 7, 2)(3, 9, 3)(2, 9, 3)(1, 22, 3)
+Queue 1: ;
+Queue 2: ;
+Peak hour: 0, average waiting time: 0, average service time: 2
+
+Time 5
+Waiting clients: (4, 7, 2)(3, 9, 3)(2, 9, 3)(1, 22, 3)
+Queue 1: ;
+Queue 2: ;
+Peak hour: 0, average waiting time: 0, average service time: 2
+
+Time 6
+Waiting clients: (4, 7, 2)(3, 9, 3)(2, 9, 3)(1, 22, 3)
+Queue 1: ;
+Queue 2: ;
+Peak hour: 0, average waiting time: 0, average service time: 2
+
+Time 7
+Waiting clients: (3, 9, 3)(2, 9, 3)(1, 22, 3)
+Queue 1: (4, 7, 2) ;
+Queue 2: ;
+Peak hour: 7, average waiting time: 0, average service time: 2
+
+Time 8
+Waiting clients: (3, 9, 3)(2, 9, 3)(1, 22, 3)
+Queue 1: (4, 7, 1) ;
+Queue 2: ;
+Peak hour: 7, average waiting time: 0, average service time: 2
+
+Time 9
+Waiting clients: (1, 22, 3)
+Queue 1: (2, 9, 3) ;
+Queue 2: (3, 9, 3) ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 10
+Waiting clients: (1, 22, 3)
+Queue 1: (2, 9, 2) ;
+Queue 2: (3, 9, 2) ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 11
+Waiting clients: (1, 22, 3)
+Queue 1: (2, 9, 1) ;
+Queue 2: (3, 9, 1) ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 12
+Waiting clients: (1, 22, 3)
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 13
+Waiting clients: (1, 22, 3)
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 14
+Waiting clients: (1, 22, 3)
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 15
+Waiting clients: (1, 22, 3)
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 16
+Waiting clients: (1, 22, 3)
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 17
+Waiting clients: (1, 22, 3)
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 18
+Waiting clients: (1, 22, 3)
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 19
+Waiting clients: (1, 22, 3)
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 20
+Waiting clients: (1, 22, 3)
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 21
+Waiting clients: (1, 22, 3)
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 22
+Waiting clients: 
+Queue 1: ;
+Queue 2: (1, 22, 3) ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 23
+Waiting clients: 
+Queue 1: ;
+Queue 2: (1, 22, 2) ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 24
+Waiting clients: 
+Queue 1: ;
+Queue 2: (1, 22, 1) ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 25
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 26
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 27
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 28
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 29
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 30
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 31
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 32
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 33
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 34
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 35
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 36
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 37
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 38
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 39
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 40
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 41
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 42
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 43
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 44
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 45
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 46
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 47
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 48
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 49
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 50
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 51
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 52
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 53
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 54
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 55
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 56
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 57
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 58
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
+Time 59
+Waiting clients: 
+Queue 1: ;
+Queue 2: ;
+Peak hour: 9, average waiting time: 0, average service time: 2
+
