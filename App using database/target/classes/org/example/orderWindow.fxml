@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.OrderWindowController">
+
+    <Button GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="2" text="Back" onAction="#switchToPrimary" />
+    <Button GridPane.rowIndex="7" GridPane.columnIndex="0" text="Add order" onAction="#add"/>
+    <ChoiceBox GridPane.rowIndex="2" GridPane.columnIndex="0" fx:id="cb"/>
+    <ChoiceBox GridPane.rowIndex="4" GridPane.columnIndex="0" fx:id="cb2"/>
+
+    <Label GridPane.rowIndex="1" GridPane.columnIndex="0" text="Select a client" />
+    <Label GridPane.rowIndex="3" GridPane.columnIndex="0" text="Select a product" />
+    <Label GridPane.rowIndex="8" GridPane.columnIndex="0" fx:id="label"/>
+
+    <TextField GridPane.rowIndex="5" GridPane.columnIndex="0" fx:id="tx1" text="Enter nr. of products" />
+    <TextField GridPane.rowIndex="6" GridPane.columnIndex="0" fx:id="tx2" text="Enter nr. order ID" />
+</GridPane>

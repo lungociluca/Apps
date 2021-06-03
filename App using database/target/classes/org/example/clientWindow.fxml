@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<GridPane alignment="CENTER" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ClientWindowController">
+    <Button GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="2" text="Back" onAction="#switchToPrimary" />
+    <Button GridPane.rowIndex="2" GridPane.columnIndex="0" text="Add   "  onAction="#add"/>
+    <Button GridPane.rowIndex="4" GridPane.columnIndex="0" text="Edit  " onAction="#update" />
+    <Button GridPane.rowIndex="6" GridPane.columnIndex="0" text="Delete" onAction="#delete"/>
+    <Button GridPane.rowIndex="8" GridPane.columnIndex="0" text="View  " onAction="#view"/>
+    <Button GridPane.rowIndex="10" GridPane.columnIndex="0" text="Find  " onAction="#find"/>
+
+    <Label GridPane.rowIndex="0" GridPane.columnIndex="1" text=" Return to the main window                   "/>
+    <Label GridPane.rowIndex="2" GridPane.columnIndex="1" text=" Specify the values separated by comma       "/>
+    <Label GridPane.rowIndex="4" GridPane.columnIndex="1" text="Enter: record name, field to update, new value"/>
+    <Label GridPane.rowIndex="6" GridPane.columnIndex="1" text=" Delete a client by name                     "/>
+    <Label GridPane.rowIndex="8" GridPane.columnIndex="1" text=" View client table                           "/>
+    <Label GridPane.rowIndex="10" GridPane.columnIndex="1" text=" Find a client by name                      "/>
+
+    <TextField GridPane.rowIndex="2" GridPane.columnIndex="2" fx:id="tx1" onAction="#setLabel"/>
+    <TextField GridPane.rowIndex="4" GridPane.columnIndex="2" fx:id="tx2" />
+    <TextField GridPane.rowIndex="6" GridPane.columnIndex="2" fx:id="tx3" />
+    <TextField GridPane.rowIndex="10" GridPane.columnIndex="2" fx:id="tx4" />
+
+    <Label GridPane.rowIndex="1" GridPane.columnIndex="1" text=""/>
+    <Label GridPane.rowIndex="3" GridPane.columnIndex="1" text=""/>
+    <Label GridPane.rowIndex="5" GridPane.columnIndex="1" text=""/>
+    <Label GridPane.rowIndex="7" GridPane.columnIndex="1" text=""/>
+    <Label GridPane.rowIndex="9" GridPane.columnIndex="1" text=""/>
+
+    <Label fx:id="label" GridPane.rowIndex="11" GridPane.columnIndex="0" GridPane.columnSpan="2" text=" " />
+    <Label GridPane.rowIndex="12" GridPane.columnIndex="0" GridPane.columnSpan="3" text="Example of add:    23,Lungoci Luca,Belgrad 19,0751659435"/>
+    <Label GridPane.rowIndex="13" GridPane.columnIndex="0" GridPane.columnSpan="3" text="Don't place space before/after coma."/>
+</GridPane>
