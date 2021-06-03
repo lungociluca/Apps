@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.EmployeePageController"
+            prefHeight="400.0" prefWidth="600.0">
+    <Label GridPane.rowIndex="1" GridPane.columnIndex="0" text="Orders awaiting:" />
+    <Button GridPane.rowIndex="0" GridPane.columnIndex="0" text="See orders undelivered" onAction="#show"/>
+    <TextArea fx:id="ta" GridPane.rowIndex="2" GridPane.columnIndex="0" />
+    <TextField GridPane.rowIndex="3" GridPane.columnIndex="0" text="Id of order to remove" fx:id="tx"/>
+    <Button text="Remove order" GridPane.rowIndex="4" GridPane.columnIndex="0" onAction="#remove"/>
+    <Button text="To main window" GridPane.rowIndex="5" GridPane.columnIndex="0" onAction="#back" />
+</GridPane>

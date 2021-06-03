@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.MenuWindowController"
+            prefHeight="400.0" prefWidth="600.0">
+    <Label GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="2" text="Creating a menu: Choose a name, write the menu items that are included, press 'Add' after each item." />
+    <Label GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.columnSpan="2" text=" " fx:id="label"/>
+
+    <Label GridPane.rowIndex="2" GridPane.columnIndex="0" text="Menu name:     " />
+    <TextField fx:id="tx1" GridPane.rowIndex="2" GridPane.columnIndex="1" />
+    <Label GridPane.rowIndex="3" GridPane.columnIndex="0" text="Item to add:   "/>
+    <TextField fx:id="tx2" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+    <Button GridPane.rowIndex="4" GridPane.columnIndex="0" text="Add" onAction="#add"/>
+    <Button GridPane.rowIndex="4" GridPane.columnIndex="1" text="Finish adding items" onAction="#registerMenu"/>
+
+    <Label GridPane.rowIndex="5" GridPane.columnIndex="0" text="  " />
+    <Label GridPane.rowIndex="5" GridPane.columnIndex="0" text="To see what menu items are in a menu write the menu name and press 'Find'" />
+    <Button GridPane.rowIndex="6" GridPane.columnIndex="0" text="find" onAction="#find"/>
+
+    <Button GridPane.rowIndex="6" GridPane.columnIndex="1" text="Back to admin window" onAction="#back"/>
+
+    <TextArea GridPane.rowIndex="7" GridPane.columnIndex="0" GridPane.columnSpan="2" fx:id="ta"/>
+
+</GridPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.ReportWindowController"
+            prefHeight="400.0" prefWidth="600.0">
+    <Label GridPane.rowIndex="0" GridPane.columnIndex="0" text="Time intervals for orders:" GridPane.columnSpan="3"/>
+
+    <Label GridPane.rowIndex="1" GridPane.columnIndex="0" text="Ordered after:" />
+    <TextField GridPane.rowIndex="1" GridPane.columnIndex="1" text="hour" fx:id="tx1"/>
+    <TextField GridPane.rowIndex="1" GridPane.columnIndex="2" text="minute" fx:id="tx2"/>
+
+    <Label GridPane.rowIndex="2" GridPane.columnIndex="0" text="Ordered before:" />
+    <TextField GridPane.rowIndex="2" GridPane.columnIndex="1" text="hour" fx:id="tx3"/>
+    <TextField GridPane.rowIndex="2" GridPane.columnIndex="2" text="minute" fx:id="tx4"/>
+
+    <Label GridPane.rowIndex="3" GridPane.columnIndex="0" text="Products ordered more than this nr. of times:" />
+    <TextField GridPane.rowIndex="3" GridPane.columnIndex="1" fx:id="tx5"/>
+
+    <Label GridPane.rowIndex="4" GridPane.columnIndex="0" text="Clients who ordered more than this nr. of times:" />
+    <TextField GridPane.rowIndex="4" GridPane.columnIndex="1" fx:id="tx6"/>
+
+    <Label GridPane.rowIndex="5" GridPane.columnIndex="0" text="Value of order higher than:" />
+    <TextField GridPane.rowIndex="5" GridPane.columnIndex="1" fx:id="tx7"/>
+
+    <Label GridPane.rowIndex="6" GridPane.columnIndex="0" text="Enter the day for which you want to see the products" />
+    <TextField GridPane.rowIndex="6" GridPane.columnIndex="1" text="day" fx:id="tx8"/>
+    <TextField GridPane.rowIndex="6" GridPane.columnIndex="2" text="month" fx:id="tx9"/>
+
+    <Button GridPane.rowIndex="7" GridPane.columnIndex="0" text="Generate Report" onAction="#generateReport"/>
+</GridPane>

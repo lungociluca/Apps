@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.UserPageController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <Button GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="2" text="See menu" onAction="#importSet"/>
+    <Label GridPane.rowIndex="1" GridPane.columnIndex="0" text=" "/>
+
+    <Label GridPane.rowIndex="4" GridPane.columnIndex="0" GridPane.columnSpan="2" text="Fill the text fields before pressing a button"/>
+
+    <Button GridPane.rowIndex="7" GridPane.columnIndex="0" GridPane.columnSpan="2" text="Search" onAction="#search"/>
+    <Label GridPane.rowIndex="8" GridPane.columnIndex="0" text=" "/>
+
+    <TextArea GridPane.rowIndex="0" GridPane.columnIndex="4"  GridPane.rowSpan="21" fx:id="ta"/>
+    <Label GridPane.rowIndex="11" GridPane.columnIndex="3" text="       "/>
+
+    <Label GridPane.rowIndex="11" GridPane.columnIndex="0" GridPane.columnSpan="2" text="If you want to search for a particular item"/>
+    <Label GridPane.rowIndex="12" GridPane.columnIndex="0" GridPane.columnSpan="2" text="fill the corresponding fields, leave the "/>
+    <Label GridPane.rowIndex="13" GridPane.columnIndex="0" GridPane.columnSpan="2" text="rest of them empty."/>
+
+    <Label GridPane.rowIndex="14" GridPane.columnIndex="0" text="  Name  " />
+    <Label GridPane.rowIndex="15" GridPane.columnIndex="0" text="  Rating  " />
+    <Label GridPane.rowIndex="16" GridPane.columnIndex="0" text="  Calories  " />
+    <Label GridPane.rowIndex="17" GridPane.columnIndex="0" text="  Protein  " />
+    <Label GridPane.rowIndex="18" GridPane.columnIndex="0" text="  Fat  " />
+    <Label GridPane.rowIndex="19" GridPane.columnIndex="0" text="  Sodium  " />
+    <Label GridPane.rowIndex="20" GridPane.columnIndex="0" text="  Price  " />
+
+    <TextField fx:id="tx1" GridPane.rowIndex="14" GridPane.columnIndex="1" />
+    <TextField fx:id="tx2" GridPane.rowIndex="15" GridPane.columnIndex="1" />
+    <TextField fx:id="tx3" GridPane.rowIndex="16" GridPane.columnIndex="1" />
+    <TextField fx:id="tx4" GridPane.rowIndex="17" GridPane.columnIndex="1" />
+    <TextField fx:id="tx5" GridPane.rowIndex="18" GridPane.columnIndex="1" />
+    <TextField fx:id="tx6" GridPane.rowIndex="19" GridPane.columnIndex="1" />
+    <TextField fx:id="tx7" GridPane.rowIndex="20" GridPane.columnIndex="1" />
+
+    <Button GridPane.rowIndex="21" GridPane.columnIndex="0" text="Back to main window" GridPane.columnSpan="2" onAction="#back"/>
+
+    <Label GridPane.rowIndex="22" GridPane.columnIndex="0" text=" "/>
+    <Label GridPane.rowIndex="23" GridPane.columnIndex="0" GridPane.columnSpan="4" text="Place an order here. Write your name and add menu items."/>
+    <Label GridPane.rowIndex="24" GridPane.columnIndex="0" GridPane.columnSpan="3" text="Write the  menu item name and press 'Add'"/>
+    <Label GridPane.rowIndex="25" GridPane.columnIndex="0" GridPane.columnSpan="3" text="After adding all the desired items press 'Place Order'."/>
+    <TextField GridPane.rowIndex="26" GridPane.columnIndex="0" GridPane.columnSpan="2" text="Name" fx:id="tx_name" />
+    <TextField GridPane.rowIndex="27" GridPane.columnIndex="0" GridPane.columnSpan="2" text="Menu item" fx:id="tx_item" />
+    <Button GridPane.rowIndex="28" GridPane.columnIndex="0" text="Add" onAction="#add"/>
+    <Button GridPane.rowIndex="28" GridPane.columnIndex="1" text="Place order" onAction="#placeOrder"/>
+</GridPane>

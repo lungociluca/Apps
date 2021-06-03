@@ -1,0 +1,35 @@
+The orders performed between 10:0 and 11:0 are:
+	-> 9 Test Andrei 10:7
+
+
+Products ordered more than 1 are:
+	 -> Classic Salad 
+	 -> Ethiopian Spice Tea 
+	 -> Red Pepper Sauce 
+	 -> Quick & Spicy Asian Pickles 
+	 -> Shrimp Sates with Spiced Pistachio Chutney 
+	 -> Master Stock Chicken 
+	 -> Hot-and-Sour Cabbage Salad 
+	 -> Spiced Shrimp 
+	 -> Chicken Stock 
+	 -> The Original Three-Ingredient Rub 
+	 -> Quatre-Épices 
+	 -> test_compus
+
+
+Clients who ordered more than 1, with orders greater than 1 are:
+	 -> Rus Iulia 160
+	 -> Tudor Valeanu 188
+	 -> Radu Hodrea 228
+	 -> Tudor Valeanu 33
+	 -> Victor Mihoc 97
+	 -> Serban Rosca 49
+	 -> Victor Mihoc 95
+	 -> Radu Mehelean 200
+	 -> Test Andrei 140
+
+
+Products ordered in 28/5/2021 are
+	-> Shrimp Sates with Spiced Pistachio Chutney  was ordered 1 times.
+	-> Red Pepper Sauce  was ordered 1 times.
+	-> test_compus was ordered 1 times.
